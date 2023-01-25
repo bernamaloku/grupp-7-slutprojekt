@@ -18,8 +18,15 @@ background: transparent;
 }
 
 body{
-    background-color: rgb(168, 240, 236);
-        text-align: center;}
+        margin: 3rem;
+        background: linear-gradient(-80deg, #0800a6d1, #1c31d5a0, #0435d7b0, #2406ad);
+        background-size: 400% 400%;
+        animation: gradient 20s ease infinite;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2rem;}
+      
 
 #enterDetails {
     display: flex;
