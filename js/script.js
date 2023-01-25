@@ -1,4 +1,4 @@
-/ Import the functions you need from the SDKs you need
+//Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
 import { getDatabase, onValue, ref, set, push, remove } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js";
 
