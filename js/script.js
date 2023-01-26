@@ -20,6 +20,20 @@ let enterName = document.querySelector('#enterName');
 const  insertBtn = document.querySelector('#insert');
 const removeBtn = document.querySelector('#remove');
 
+// Add sound to insert and remove buttons - Ignacio
+
+const insertSound = new Audio('https://www.fesliyanstudios.com/play-mp3/5269');
+const removeSound = new Audio('https://www.fesliyanstudios.com/play-mp3/6481');
+
+insertBtn.addEventListener('click', () => {
+    insertSound.play();
+})
+
+removeBtn.addEventListener('click', () => {
+    removeSound.play();
+})
+
+//-----------------------------------------------------
 
 function InsertData() {
     console.log(enterName.value);
