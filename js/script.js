@@ -217,3 +217,11 @@ input.addEventListener('keypress', (event) => {
 // function hidePopUp() {
 //     popUp.classList.add('pop-up-hide');
 // }
+
+
+const list = document.querySelector('.list');
+const listHeader = document.querySelector('.header');
+
+listHeader.addEventListener('click', function(){
+    list.classList.add('spinList');
+})
