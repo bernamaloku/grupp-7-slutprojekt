@@ -98,6 +98,12 @@ body {
   padding: 8px 38px;
 }
 
+/* color gradient on messages */ 
+
+.item_row {
+  background: linear-gradient(90deg, rgba(215,206,227,1) 0%, rgba(158,96,170,1) 75%, rgba(85,7,162,1) 100%);
+}
+
 .item_delete {
   font-size: 16px;
   transition: all 300ms ease-in-out;
