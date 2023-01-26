@@ -222,3 +222,10 @@ body {
 
 @media only screen and (min-width: 800px) {
 }
+
+/* tiny hover effect*/
+#insert:hover, #remove:hover{
+  background-color: transparent;
+  color: white;
+  transition: 400ms;
+}
