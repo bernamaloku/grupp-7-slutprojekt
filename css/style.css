@@ -89,7 +89,7 @@ body {
 
 .items {
   height: 500px;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .item {
